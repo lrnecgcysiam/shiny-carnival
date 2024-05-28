@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox Vimeo Example</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for the Vimeo link and thumbnail */
+        .vimeo-thumbnail {
+            display: inline-block;
+            cursor: pointer;
+        }
+        .vimeo-thumbnail img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Vimeo video thumbnail linked to the video -->
+<a href="https://player.vimeo.com/video/949209995" data-lightbox="vimeo" class="vimeo-thumbnail">
+    <img src="https://i.vimeocdn.com/video/1856918883-261fc063e1d8d972274a3c5ac38fcb99bbcc24c76beaa3b0fcbd3f984c28a07c-d_295x166?r=pa" alt="Vimeo Video Thumbnail">
+</a>
+
+<!-- Include Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+So I am looking to take a 1 minute and 20 second and video and divide the video
+into 10 parts. The video can be divded using ffmpeg 
+
+Thanks next I need to find out the filenames on the entire directory.
+is there a way to use bash scripting to read all the filenames 
+and place them into a text file which could be later searched with grep?
